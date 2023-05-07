@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+background-color: #141316;
+color: white;
+}
+
+body{
+    padding: 2rem;
+    margin: auto;
+}
+
+input[type="submit"] {
+    background-color: rgb(154, 253, 154);
+}
+a{
+    color: rgb(140, 0, 255);
+}
+li{
+    padding: 2rem;
+}
+ul li{list-style: none;
+}
+
+  
+ form{
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 500px;
+    padding: 20px;
+    width: 320px;
+  }

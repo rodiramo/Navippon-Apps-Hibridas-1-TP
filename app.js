@@ -1,19 +1,18 @@
-import express from 'express'
-import path from 'path'
-import alumnoRoute from './routes/alumnos.routes.js'
-import alumnoRouteAPI from './api/routes/alumnos.api.routes.js'
+import express from 'express';
+import path from 'path';
+import activityRoute from './routes/activities.routes.js';
+import activityRouteAPI from './api/routes/activities.api.routes.js';
+import usersRouteAPI from './api/routes/users.api.routes.js';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const app = express() 
+const app = express(); 
 
-app.use(express.urlencoded({ extended: true })) 
-app.use(express.json()) 
-app.use(express.static('public'))
-app.use('/', express.static(path.join(__dirname, 'public'))) 
-
+app.use(express.urlencoded({ extended: true })); 
+app.use(express.static('public'));
+app.use('/', express.static(path.join(__dirname, 'public')));
 
 app.use('/css', express.static(path.join(__dirname, '/public/css'), {
   setHeaders: function (res, path, stat) {
@@ -27,10 +26,15 @@ app.get('/css/styles.css', (req, res) => {
   res.sendFile(__dirname + '/public/css/style.css');
 });
 
+app.use(activityRoute);
 
-app.use(alumnoRoute)
-app.use('/api', alumnoRouteAPI)
 
-app.listen(2023, function () {
-    console.log('Server is running in http://localhost:2023')
-})
+app.use('/api', activityRouteAPI);
+
+
+app.use('/', usersRouteAPI);
+
+
+app.listen(3333, function () {
+    console.log('Server is running in http://localhost:3333')
+});

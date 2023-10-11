@@ -1,0 +1,304 @@
+[{
+  "_id": {
+    "$oid": "652307ed6749bf16bc934e1b"
+  },
+  "activity": "Exploring Urban Wonders",
+  "description": "Explore the vibrant capital city of Tokyo.",
+  "link": "https://www.visitjapan.jp/en/",
+  "img": "https://picsum.photos/400/225",
+  "categories": "https://picsum.photos/400/225",
+  "city": "Tokyo",
+  "user": {
+    "$oid": "6526ab16a19282eb57e2e7b3", "user": {
+      "$oid": "6526ab16a19282eb57e2e7b3"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "652307ed6749bf16bc934e1c"
+  },
+  "activity": "Cultural Heritages",
+  "description": "Discover the historical and cultural treasures of Kyoto.",
+  "link": "https://www.japan-guide.com/e/e2158.html",
+  "img": "https://picsum.photos/400/225",
+  "categories": "https://picsum.photos/400/225",
+  "city": "Kyoto", "user": {
+    "$oid": "6526ab16a19282eb57e2e7b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "652307ed6749bf16bc934e1d"
+  },
+  "activity": "Street Food Adventure",
+  "description": "Experience the bustling city of Osaka and its delicious street food.",
+  "link": "https://www.osaka-info.jp/en/",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "active",
+    "fun",
+    "food",
+    "city"
+  ],
+  "city": "Osaka", "user": {
+    "$oid": "6526ab16a19282eb57e2e7b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "652307ed6749bf16bc934e1e"
+  },
+  "activity": "Historical Reflection",
+  "description": "Reflect on the history of Hiroshima and visit the Peace Memorial Park.",
+  "link": "https://visithiroshima.net/",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "relaxing",
+    "culture",
+    "history",
+    "city"
+  ],
+  "city": "Hiroshima", "user": {
+    "$oid": "6526ab16a19282eb57e2e7b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "652307ed6749bf16bc934e1f"
+  },
+  "activity": "Beach Paradise",
+  "description": "Relax on the beautiful beaches of Okinawa and enjoy water activities.",
+  "link": "https://www.visitokinawa.jp/",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "relaxing",
+    "beach",
+    "water",
+    "fun"
+  ],
+  "city": "Okinawa", "user": {
+    "$oid": "6526ab16a19282eb57e2e7b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "652307ed6749bf16bc934e20"
+  },
+  "activity": "Nature Exploration",
+  "description": "Explore the natural beauty of Hokkaido's national parks.",
+  "link": "https://www.japan-guide.com/e/e2167.html",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "active",
+    "nature",
+    "adventure",
+    "city"
+  ],
+  "city": "Hokkaido", "user": {
+    "$oid": "6526ab16a19282eb57e2e7b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "652307ed6749bf16bc934e21"
+  },
+  "activity": "Cherry Blossom Viewing",
+  "description": "Witness the stunning cherry blossoms in full bloom in Nagoya.",
+  "link": "https://www.nagoyajapan.travel/en/",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "relaxing",
+    "culture",
+    "nature",
+    "city"
+  ],
+  "city": "Nagoya", "user": {
+    "$oid": "6526ab16a19282eb57e2e7b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "652307ed6749bf16bc934e22"
+  },
+  "activity": "Historical Sites Tour",
+  "description": "Visit ancient temples and shrines in Nara, the ancient capital of Japan.",
+  "link": "https://www.visitnara.jp/",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "culture",
+    "history",
+    "nature",
+    "city"
+  ],
+  "city": "Nara", "user": {
+    "$oid": "6526ab16a19282eb57e2e7b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "652332c09a8074ef7e7c596e"
+  },
+  "activity": "Cat Cafe in Tokyo",
+  "description": "Cute cats everywhere in a cafe",
+  "link": "erteilen kann ",
+  "img": "https://picsum.photos/400/225",
+  "categories": "https://picsum.photos/400/225",
+  "city": "Tokyo", "user": {
+    "$oid": "6526ab16a19282eb57e2e7b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "652484938f6da7faea2c54c1"
+  },
+  "activity": "Shrine Visit",
+  "description": "Kyoto",
+  "link": "hello",
+  "img": "https://picsum.photos/400/225",
+  "categories": "https://picsum.photos/400/225",
+  "city": "Kyoto", "user": {
+    "$oid": "6526ab16a19282eb57e2e7b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6526f1cfa19282eb57e2e7e5"
+  },
+  "activity": "Exploring Urban Wonders",
+  "description": "Explore the vibrant capital city of Tokyo.",
+  "link": "https://www.visitjapan.jp/en/",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "active",
+    "fun",
+    "anime",
+    "city"
+  ],
+  "city": "Tokyo",
+  "user": {
+    "$oid": "6526ab16a19282eb57e2e7b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6526f1cfa19282eb57e2e7e6"
+  },
+  "activity": "Cultural Heritage",
+  "description": "Discover the historical and cultural treasures of Kyoto.",
+  "link": "https://www.japan-guide.com/e/e2158.html",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "relaxing",
+    "fun",
+    "culture",
+    "city"
+  ],
+  "city": "Kyoto",
+  "user": {
+    "$oid": "6526ab16a19282eb57e2e7b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6526f1cfa19282eb57e2e7e7"
+  },
+  "activity": "Street Food Adventure",
+  "description": "Experience the bustling city of Osaka and its delicious street food.",
+  "link": "https://www.osaka-info.jp/en/",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "active",
+    "fun",
+    "food",
+    "city"
+  ],
+  "city": "Osaka",
+  "user": {
+    "$oid": "6526ab16a19282eb57e2e7b3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6526f1cfa19282eb57e2e7e8"
+  },
+  "activity": "Historical Reflection",
+  "description": "Reflect on the history of Hiroshima and visit the Peace Memorial Park.",
+  "link": "https://visithiroshima.net/",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "relaxing",
+    "culture",
+    "history",
+    "city"
+  ],
+  "city": "Hiroshima",
+  "user": ""
+},
+{
+  "_id": {
+    "$oid": "6526f1cfa19282eb57e2e7e9"
+  },
+  "activity": "Beach Paradise",
+  "description": "Relax on the beautiful beaches of Okinawa and enjoy water activities.",
+  "link": "https://www.visitokinawa.jp/",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "relaxing",
+    "beach",
+    "water",
+    "fun"
+  ],
+  "city": "Okinawa",
+  "user": ""
+},
+{
+  "_id": {
+    "$oid": "6526f1cfa19282eb57e2e7ea"
+  },
+  "activity": "Nature Exploration",
+  "description": "Explore the natural beauty of Hokkaido's national parks.",
+  "link": "https://www.japan-guide.com/e/e2167.html",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "active",
+    "nature",
+    "adventure",
+    "city"
+  ],
+  "city": "Hokkaido"
+},
+{
+  "_id": {
+    "$oid": "6526f1cfa19282eb57e2e7eb"
+  },
+  "activity": "Cherry Blossom Viewing",
+  "description": "Witness the stunning cherry blossoms in full bloom in Nagoya.",
+  "link": "https://www.nagoyajapan.travel/en/",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "relaxing",
+    "culture",
+    "nature",
+    "city"
+  ],
+  "city": "Nagoya",
+  "user": ""
+},
+{
+  "_id": {
+    "$oid": "6526f1cfa19282eb57e2e7ec"
+  },
+  "activity": "Historical Sites Tour",
+  "description": "Visit ancient temples and shrines in Nara, the ancient capital of Japan.",
+  "link": "https://www.visitnara.jp/",
+  "img": "https://picsum.photos/400/225",
+  "categories": [
+    "culture",
+    "history",
+    "nature",
+    "city"
+  ],
+  "city": "Nara",
+  "user": ""
+}]

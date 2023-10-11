@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "6526ab16a19282eb57e2e7b3"
+  },
+  "name": "Rocio Diaz",
+  "photo": "https://picsum.photos/100/100",
+  "description": "I am a coding lover",
+  "email": "rocio@client.com",
+  "activities": [
+    {
+      "$oid": "652307ed6749bf16bc934e1b"
+    },
+    {
+      "$oid": "652307ed6749bf16bc934e1d"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6526ab16a19282eb57e2e7b4"
+  },
+  "name": "David",
+  "photo": "https://picsum.photos/100/100",
+  "description": "I am David and I like Pokemon",
+  "email": "david@client.com",
+  "activities": []
+}]

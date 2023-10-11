@@ -1,13 +1,14 @@
-import {MongoClient} from "mongodb";
+import { MongoClient } from "mongodb";
 
-const client = new MongoClient("mongodb://127.0.0.1:27017/students");
+const uri = "mongodb://localhost:27017";
+const client = new MongoClient(uri, { useUnifiedTopology: true });
+const db = client.db("ROCIODB")
+
 
 client.connect()
-        .then(function(){
+    .then(async () => {
         console.log("Connected to MongoDB");
-            const db = client.db("ROCIODB");
-            db.collection("students").insertOne({name: "Hola desde Node"});              
-        })
-        .catch(function(){
-            console.log("Error connecting");
-        })
+    })
+    .catch((error) => {
+        console.error("Error connecting to MongoDB:", error);
+    });
